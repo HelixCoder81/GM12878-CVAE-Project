@@ -1,0 +1,23 @@
+# --- 深度学习核心 ---
+torch>=1.12.0
+torchvision
+torchaudio
+
+# --- 生物信息学数据处理 (处理 .mcool/.hic) ---
+cooler>=0.8.11
+h5py>=3.7.0
+pandas>=1.4.0
+biopython>=1.79
+
+# --- 科学计算与线性代数 (用于 Kabsch 算法和 SVD) ---
+numpy>=1.22.0
+scipy>=1.8.0
+
+# --- 可视化与评估 ---
+matplotlib>=3.5.0
+scikit-learn>=1.0.0
+seaborn>=0.11.0
+
+# --- 进度条与实用工具 ---
+tqdm>=4.64.0
+pyyaml>=6.0
